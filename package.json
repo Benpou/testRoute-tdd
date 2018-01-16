@@ -1,0 +1,27 @@
+{
+  "name": "testroute-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benpou/testRoute-tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benpou/testRoute-tdd/issues"
+  },
+  "homepage": "https://github.com/Benpou/testRoute-tdd#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
