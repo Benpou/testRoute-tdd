@@ -12,6 +12,7 @@ routes.all('/api/:version', (req, res, next) => {
   console.log('params ===> ', req.params.version);
   let reqParams = req.params.version;
   console.log('reqParams ====> ', reqParams);
+  console.log('this is req ========> ', req.query)
 
   // let newdisc = Object.keys(reqParams).map(xx => reqParams[xx]);
   // console.log(newdisc);
